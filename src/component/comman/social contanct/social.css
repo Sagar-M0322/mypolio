@@ -1,0 +1,21 @@
+.socialcontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialicon {
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.socialicons {
+  height: 40px;
+}
+
+@media only screen and (max-width: 720px) {
+  .socialicons {
+    height: 32px;
+  }
+}

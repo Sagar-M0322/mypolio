@@ -1,0 +1,48 @@
+.Header {
+  display: flex;
+
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.mobilemenu {
+  display: none;
+}
+.webmenu {
+  display: flex;
+}
+
+.Logo {
+  display: flex;
+  font-size: 36px;
+  color: blueviolet;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobilemenu {
+    display: flex;
+  }
+  .webmenu {
+    display: none;
+  }
+  .Logo {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+}
